@@ -1,0 +1,5 @@
+<launch>
+  <node pkg="rviz" type="rviz" name="rviz"
+        output="screen"
+        args="-d $(find service_robot)/rviz/navigation.rviz"/>
+</launch>
